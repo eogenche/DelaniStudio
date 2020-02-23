@@ -4,6 +4,7 @@
     background-size: cover;
     text-align: center;
     color: white;
+    padding: 30px;
     
   }
 .start1{
@@ -16,9 +17,53 @@
 .start2{
     background-image: url("images/s_image.jpg");
     color: white;
-  
+    padding: 30px;
 }
-.styleDiv{
+.styleDiv-hidden{
     margin: 3px;
     text-align: center;
+    padding: 30px;
 }
+.h3{
+    text-align: center;
+}
+.styleDiv1-hidden{
+    margin: 3px;
+    text-align: center;
+    padding: 30px;
+}
+.styleDiv2-hidden{
+    margin: 3px;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#styleDiv-show {
+    display: none;
+  }
+
+  #clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #styleDiv1-show {
+    display: none;
+  }
+  #styleDiv2-show {
+    display: none;
+  }
+  .clickable2 {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #hid {
+      display: none;
+  }
+  #hidd {
+      display: none;
+  }
