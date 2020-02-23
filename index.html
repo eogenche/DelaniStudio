@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="DelaniStudio.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="DelaniStudio.js"></script>
-    <title>DelaniStudio</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+               
+            <title>DelaniStudio</title>
 </head>
 <body>
     <div class="container">
@@ -22,7 +22,7 @@
         </div>
         <div class = "start1">
             <div class = "card">
-                <h3>ABOUT US</h3>
+                <h4>ABOUT US</h4>
                 <h6>When you work with us,you are a part of committed collaborators. All aspects of our software development process are interactive,intergrated and agile.</h6>
                 <h6>Our approach unifies design, development and product management to create exceptional products </h6>
                 <h6>We start each project by understanding your business goals, the user needs and the product requirements</h6>
@@ -38,21 +38,37 @@
                     </div>
                 </div>
             </div>
-            <div class = "container">
-                <div class= "row">
-                    <div class= "col-md-3">
-                        <div class="styleDiv" src="images/design_icon.png"></div>
+            <div class="container">
+                <div class="row">
+                    <h4>WHAT WE DO</h4>
+
+                    <div class="col-md-4">
+                            <img id="design"class="clickable5" src="images/design_icon.png">
+                            <p class=>DESIGN</p>
+                            <p id="hidd">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                        </div>
                     </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <div class="styleDiv" src="images/dev_icon.png">  
+
+                            </div>
+                        </div>
+                </div>
+                    <div class="col-md-4">
+                        <img class="hide1" id="styleDiv1-hidden" src="images/dev_icon.png"> 
+                    </div>   
+                        <div id="styleDiv1-show" class="clickable2">
+                            <p id="hid">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-3">
-                        <div class="styleDiv" src="images/product_icon.png">
+                    <div class="col-md-4">
+                        <img class="clickable" id="styleDiv2-hidden" src="images/product_icon.png">
                     </div>
                 </div>
             </div>
+
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="DelaniStudio.js"></script>
     </body>
 </html>
