@@ -7,9 +7,33 @@
     padding: 30px;
     
   }
+  .text-describe{
+     position: absolute;
+     top: 50%;
+     color: white;
+     left: 45%;
+     transform: translate(-50%, -50%);
+     border-style: solid;
+     border-radius: 25px;
+     padding: 5px;
+  }
+  .customDiv{
+
+    margin-bottom: 3px;
+    text-align: centre;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+  }
+  .col-md-3{
+    padding: 3px;
+    width: 90%;
+  }
 .start1{
 
     text-align: center;
+    padding: 30px;
 }
 .h1{
     color: white;
@@ -42,6 +66,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    text-align: center;
 }
 #styleDiv-show {
     display: none;
