@@ -7,24 +7,26 @@
     padding: 30px;
     
   }
-  .text-describe{
-     position: absolute;
-     top: 50%;
-     color: white;
-     left: 45%;
-     transform: translate(-50%, -50%);
-     border-style: solid;
-     border-radius: 25px;
-     padding: 5px;
+  .back{
+    background-image: url("images/c_image.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 30px;
   }
-  .customDiv{
-
-    margin-bottom: 3px;
-    text-align: centre;
+  .text-describe{
+     display: none;
+     position: absolute;
+     top: 40%;
+     left:40% ;
+     border: 2px solid white;
+     height: 10%;
+     width: 30%;
+     color: white;
+  }
+  .image-fluid{
     width: 100%;
-    height: 100%;
-    padding: 20px;
-    margin: 20px;
+    height: 30%;
   }
   .col-md-3{
     padding: 3px;
@@ -92,4 +94,3 @@
   #hidd {
       display: none;
   }
-  
