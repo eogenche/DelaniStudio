@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     $("#hidd,#design").click(function() {
-        $("#design").toggle();
-        $("#hidd").toggle();
+        $("#design").delay(4000).toggle();
+        $("#hidd").delay(4000).toggle();
     });
 
     $("#styleDiv1-hidden,#styleDiv1-show").click(function() {
